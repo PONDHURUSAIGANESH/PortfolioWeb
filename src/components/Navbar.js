@@ -2,7 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
-import { DribbbleIcon, GithubIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from "./icons";
+import { GithubIcon, LeetIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from "./icons";
 import {motion} from "framer-motion"
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
 
@@ -84,29 +84,29 @@ const Navbar = () => {
         >
           <TwitterIcon/>
         </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"} 
+        <motion.a href="https://github.com/PONDHURUSAIGANESH" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
         className="w-6 mx-3">
           <GithubIcon/>
         </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"} 
+        <motion.a href="https://www.linkedin.com/in/saiganesh2003/" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
         className="w-6 mx-3">
           <LinkedInIcon/>
         </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"} 
+        <motion.a href="https://in.pinterest.com/" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
         className="w-6 mx-3 bg-light rounded-full">
           <PinterestIcon/>
         </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"} 
+        <motion.a href="https://leetcode.com/u/saiganesh123eeee444/" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
         className="w-6 ml-3">
-          <DribbbleIcon/>
+          <LeetIcon/>
         </motion.a>
         <button
           onClick={()=> setMode(mode === "light" ? "dark":"light")}
@@ -149,29 +149,29 @@ const Navbar = () => {
         >
           <TwitterIcon/>
         </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"} 
+        <motion.a href="https://github.com/PONDHURUSAIGANESH" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
         className="w-6 mx-3  bg-light rounded-full dark:bg-dark sm:mx-1">
           <GithubIcon/>
         </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"} 
+        <motion.a href="https://www.linkedin.com/in/saiganesh2003/" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
         className="w-6 mx-3 sm:mx-1">
           <LinkedInIcon/>
         </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"} 
+        <motion.a href="https://in.pinterest.com/" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
         className="w-6 mx-3 bg-light rounded-full sm:mx-1">
           <PinterestIcon/>
         </motion.a>
-        <motion.a href="https://twitter.com" target={"_blank"} 
+        <motion.a href="https://leetcode.com/u/saiganesh123eeee444/" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
         className="w-6 ml-3 sm:mx-1">
-          <DribbbleIcon/>
+          <LeetIcon />
         </motion.a>
         <button
           onClick={()=> setMode(mode === "light" ? "dark":"light")}
