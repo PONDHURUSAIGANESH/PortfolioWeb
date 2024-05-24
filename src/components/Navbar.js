@@ -105,7 +105,7 @@ const Navbar = () => {
         <motion.a href="https://leetcode.com/u/saiganesh123eeee444/" target={"_blank"} 
         whileHover={{y:-2}}
         whileTap={{scale:0.90}}
-        className="w-6 ml-3">
+        className="w-6 ml-3 bg-light rounded-full">
           <LeetIcon/>
         </motion.a>
         <button
