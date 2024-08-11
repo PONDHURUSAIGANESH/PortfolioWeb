@@ -50,23 +50,15 @@ const about = () => {
                 About Me
               </h2>
               <p className="font-medium">
-                `Hi, I'm CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients' visions to life.`
+                Hi, I'm Saiganesh, a web developer and UI/UX designer with a growing passion for machine learning and data science. With 4 years of experience in creating beautiful, functional, and user-centered digital experiences, I'm excited to explore innovative ways to leverage data-driven insights to enhance my projects. I'm always on the lookout for new opportunities to bring my clients' visions to life while integrating the latest advancements in technology.
               </p>
               <p className="my-4 font-medium">
-                `I believe that design is about more than just making things look
-                pretty. it's about solving problems and creating intuitive,
-                enjoyable experiences for users.`
+                I believe that design goes beyond aesthetics; it's about solving problems and creating intuitive, enjoyable experiences for users. By leveraging data insights, I aim to enhance user experiences further and ensure that design decisions are informed and impactful.
               </p>
               <p className="font-medium">
-                `Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.`
+                "Whether I'm working on a website, mobile app, or any digital product, I bring my commitment to design excellence and user-centered thinking to every project. By integrating data-driven insights into my process, I can create even more effective and engaging experiences. I look forward to the opportunity to bring my skills and passion to your next project."
+
+
               </p>
             </div>
 
